@@ -13,7 +13,6 @@ namespace Supermarket.API.Persistence.Repositories
     {
         public CategoryRepository(AppDbContext context) : base(context)
         {
-
         }
 
         public async Task<IEnumerable<Category>> ListAsync()
